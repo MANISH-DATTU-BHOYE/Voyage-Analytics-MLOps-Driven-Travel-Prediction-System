@@ -1,0 +1,57 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+.codegpt/
+
+# Logs
+logs/
+*.log
+
+# MLflow local files
+mlruns/
+mlflow.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+"@ | Set-Content .gitignore
+.codegpt
+mlflow_final.db
+
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.log
+mlruns/
+mlartifacts/
+.ipynb_checkpoints/
+.DS_Store
